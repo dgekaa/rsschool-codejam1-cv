@@ -1,2 +1,91 @@
 /*СТАНДАРТНЫЕ НАСТРОЙКИ CSS*/@import url(reset.css);
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+	color: #bbb; 
+	background-color: #666;
+}
+a{
+	text-decoration: none;
+	color: #bbb;
+}
+a:hover{
+	color: #F07900;
+	transition: 0.2s ease all;
+}
 
+.wrapper{
+	max-width: 1024px;
+	margin: 0 auto;
+	height: 600px;
+}	
+						/*HEADER*/
+	header{
+		width: 100%;
+		display: flex;
+		height: 500px;
+	}
+		header 
+		.photo-header{
+			height: 100%;
+			background-color: #555;
+			flex: 1;
+		}
+			header 
+			.photo-header 
+			img{
+				border-radius: 50%;
+				display: block;
+				margin: 0 auto;
+				margin-top: 110px;
+			}
+		header 
+		.info-header{
+			height: 100%;
+			background-color: #666;
+			flex: 2;
+			border: 1px solid #d66901;
+			border-top: none;
+			/*border-bottom: none;*/
+		}
+			header 
+			#name{
+				margin-top: 120px; 
+				line-height: 45px;
+				padding-left: 30px;
+			}
+				header 
+				#nameEvg{
+					font-size: 45px;
+					text-transform: uppercase;
+				}
+				header 
+				#surname{
+					font-size: 55px;
+					color: #F07900; 
+					text-transform: uppercase;
+				}
+				header 
+				.skills-briefly{
+					width: 90%;
+					margin: 0 auto;
+					padding-top: 17px;
+					margin-top: 120px;
+					border-top: 1px solid #d66901;
+				}
+					header 
+					.skills-briefly 
+					div{
+						display: inline-block;
+						width: 30%;
+						line-height: 30px;
+					}
+						header 
+						.skills-briefly 
+						p{
+							display: inline-block;
+							text-align: center;
+							padding-left: 50px;
+						}
