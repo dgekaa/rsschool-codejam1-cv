@@ -127,7 +127,6 @@ a{
 							display: inline-block;
 							text-align: center;
 							padding-left: 50px;
-							height: 50px;
 						}
 							.skills-briefly 
 							p
@@ -145,7 +144,6 @@ a{
 	}				
 		section
 		.left-about-me{
-			background-color: #666;
 			flex: 1;
 			border: 1px solid #d66901;
 		}	
