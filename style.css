@@ -25,7 +25,7 @@ a{
 						/*HEADER*/
 	header{
 		display: flex;
-		height: 500px;
+		height: 600px;
 	}
 		header 
 		.photo-header{
@@ -71,7 +71,7 @@ a{
 				.links{
 					width: 500px;
 					height: 60px;
-					margin:55px 30px;
+					margin:90px 30px;
 					position: relative;
 				}
 					.links
@@ -92,7 +92,7 @@ a{
 						left:120px;
 					}
 						.links
-						.vk:hover, .inst:hover{
+						.vk:hover{
 							top: -1px;
 							left: -1px;
 							width: 36px;
@@ -111,7 +111,7 @@ a{
 				.skills-briefly{
 					width: 90%;
 					margin: 0 auto;
-					padding-top: 17px;
+					padding-top: 30px;
 					border-top: 1px solid #d66901;
 				}
 					header 
