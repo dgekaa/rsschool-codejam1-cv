@@ -127,7 +127,16 @@ a{
 							display: inline-block;
 							text-align: center;
 							padding-left: 50px;
+							height: 50px;
 						}
+							.skills-briefly 
+							p
+							span,
+							.skills-briefly 
+							p
+							a{
+								color: white;
+							}
 
 						/*ABOUT ME*/
 	.about-me{
