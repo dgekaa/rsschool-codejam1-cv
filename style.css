@@ -171,6 +171,7 @@ a:hover{
 			position: absolute;
 			left: -65px;
 			top: 12px;
+			font-weight: bold;
 		}
 			.right-scills .js:after{
 				content: "70%";
@@ -190,6 +191,7 @@ a:hover{
 			position: absolute;
 			left: -65px;
 			top: 12px;
+			font-weight: bold;
 		}
 			.right-scills .html:after, .right-scills .css:after{
 				content: "80%";
@@ -209,13 +211,14 @@ a:hover{
 			position: absolute;
 			left: -65px;
 			top: 12px;
-
+			font-weight: bold;
 		}
 		.right-scills .git:before{
 			content: "GIT";
 			position: absolute;
 			left: -65px;
 			top: 12px;
+			font-weight: bold;
 		}
 			.right-scills .git:after{
 					content: "60%";
@@ -230,4 +233,43 @@ a:hover{
 					color: #3d3d3d;
 					font-weight: bold;
 				}
-		
+								/*EDUCATION*/
+
+	.education{
+		width: 100%;
+		display: flex;
+		height: 300px;
+	}		
+		.education
+		.left-education{
+			height: 100%;
+			background-color: #666;
+			flex: 1;
+			border: 1px solid #d66901;
+		}	
+			.left-education
+			h2{
+				font-size: 50px;
+				text-align: center;
+				margin-top: 125px;	
+				font-weight: bold;
+				text-transform: uppercase;
+			}
+		.education
+		.right-education{
+			height: 100%;
+			background-color: #555;
+			flex: 2;
+
+		}	
+			.right-education p{
+				padding: 30px 50px 0 50px;
+				line-height: 21px;	
+			}	
+			.right-education a{
+				color: #fff999;
+			}	
+			.right-education a:hover{
+				color: #F07900;
+				transition: 0.2s ease all;
+			}	
