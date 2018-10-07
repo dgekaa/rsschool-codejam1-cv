@@ -11,6 +11,7 @@
 		<!-- СТИЛИ --><link rel="stylesheet" href="style.css">
 		<!-- @MEDIA -->	<link rel="stylesheet" href="media.css"/>
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="wow-animation/animate.min.css">
 	</head>
 		
 	<body>						
@@ -18,22 +19,22 @@
 		<div class="wrapper">
 			<header>
 				<div class="photo-header">
-					<img src="https://pp.userapi.com/mKQJlGoZm0QDv5MM0wDHRu4b1sOS41T7Vt2mzA/_8tJMzB3aAk.jpg" alt="my photo" width="230" height="230">
+					<img src="https://pp.userapi.com/mKQJlGoZm0QDv5MM0wDHRu4b1sOS41T7Vt2mzA/_8tJMzB3aAk.jpg" alt="my photo" width="230" height="230" class="wow fadeInLeft" data-wow-delay="0.25s" data-wow-duration="0.5s">
 				</div>
 				<div class="info-header">
-					<div id="name">
+					<div id="name" class="wow fadeInRight" data-wow-delay="0.5s" data-wow-duration="0.5s">
 						<p>
 							<span id="nameEvg">Evgeniy</span> <br> 
 							<span id="surname">PRIGODSKI</span> <br> 
 							<span id="frontend">Future Frontend Developer</span>	
 						</p>
 					</div>
-					<div class="links">
+					<div class="links wow fadeInRight" data-wow-delay="0.8s" data-wow-duration="0.5s">
 						<a href="https://vk.com/id127858518"><img class="vk" src="https://png.icons8.com/ios/1600/vkontakte-circled-filled.png" alt="vk" width="35" target="_blank"></img></a>
 						<a href="https://github.com/dgekaa" target="_blank"><img class="gitHub" src="https://icon-icons.com/icons2/509/PNG/512/Github_icon-icons.com_49946.png" alt="gitHub" width="50"></img></a>
 						<a href="https://www.instagram.com/evgeniyprigodskiy" target="_blank"><img class="inst" src="https://instaforum.ru/styles/uix/uix/Instagram.png" alt="instagram" width="35"></img></a>
 					</div>
-					<div class="skills-briefly">
+					<div class="skills-briefly wow fadeInRight" data-wow-delay="1s" data-wow-duration="0.5s">
 						<div class="location">
 							<p>Location <br>
 								Minsk, Belarus
@@ -56,10 +57,10 @@
 								<!-- ABOUT ME -->
 		<div class="wrapper">
 			<section class="about-me">
-				<div class="left-about-me">
-					<h2>MY GOALS</h2>
+				<div class="left-about-me wow fadeInLeft" data-wow-duration="0.5s" data-wow-offset="250">
+					<h2 class="" >MY GOALS</h2>
 				</div>
-				<div class="right-about-me">
+				<div class="right-about-me wow fadeInRight" data-wow-duration="0.5s" data-wow-offset="250">
 					<p>
 						 I have been studying programming for about 2 years. To be honest, it's not easy for me. But thanks to my zeal and perseverance it begins to turn out at me. 
 						 <br> 
@@ -75,10 +76,10 @@
 							<!-- SKILLS -->
 		<div class="wrapper">
 			<section class="scills">
-				<div class="left-scills">
+				<div class="left-scills wow fadeInLeft" data-wow-duration="0.5s" data-wow-offset="250">
 					<h2>MY SCILLS</h2>
 				</div>
-				<div class="right-scills">
+				<div class="right-scills wow fadeInRight" data-wow-duration="0.5s" data-wow-offset="250">
 					<div class="js"></div>
 					<div class="html"></div>
 					<div class="css"></div>
@@ -89,10 +90,10 @@
 							<!-- EDUCATION -->
 		<div class="wrapper">
 			<section class="education">
-				<div class="left-education">
+				<div class="left-education wow fadeInLeft" data-wow-duration="0.5s" data-wow-offset="250" >
 					<h2>EDUCATION</h2>
 				</div>
-				<div class="right-education">
+				<div class="right-education wow fadeInRight" data-wow-duration="0.5s" data-wow-offset="250">
 					<p>
 						In 2011, I started studying at BNTU at the faculty of automotive engineering. In 2016 I graduated to study there. At that time I knew almost nothing about programming. <br> 
 						 Later I went to work at the "Minsk gear works" as an engineer. And over the past two years working out I went in that direction. <br>
@@ -104,7 +105,11 @@
 		</div>				
 
 
-	<!-- JS --><script src="javascript.js"></script>	
+		<script src="wow-animation/wow.min.js"></script>
+		<script>
+			new WOW().init();
+		</script>
+		
 	</body>
 
 </html>
