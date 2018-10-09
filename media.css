@@ -1,0 +1,86 @@
+
+@media screen and (max-width:1040px){
+	body{
+		font-size: 14px;
+	}
+}
+@media screen and (max-width:900px){
+	.skills-briefly{
+		padding-top: 20px;
+	}
+		header 
+		.skills-briefly 
+		div{
+			width: 28%;
+		}
+			header 
+			.skills-briefly 
+			p{
+				padding-left:30%;
+				font-size: 14px;
+			}
+}
+@media screen and (max-width:888px){
+
+	section
+	.left-about-me
+	h2,
+	.scills
+	h2,
+	.left-education
+	h2{
+		font-size: 40px;
+	}	
+	.right-about-me 
+	p{
+		padding:20px;
+		font-size: 16px;
+	}	
+	.right-education p{
+		padding: 20px;
+		line-height: 19px;	
+		font-size: 16px;
+	}	
+
+}
+@media screen and (max-width:800px){
+	header 
+	.photo-header
+	img{
+		width:150px;
+		height: 150px;
+		
+	}
+	.links{
+		height: 30px;
+		margin:40px 30px;
+	}
+	header 
+	.skills-briefly 
+	div{
+		width: 80%;
+		
+	}
+	header 
+	.skills-briefly 
+	p{
+		padding-top: 8px;
+		padding-left:19px;
+		
+	}
+	header 
+	.skills-briefly 
+	p
+	span{
+		display: inline-block;
+		width: 150px;
+		border-bottom: 1px solid #3d3d3d;
+		padding-bottom: 6px;
+	}
+	header 
+	.skills-briefly 
+	#q{
+		border-bottom: none;
+	}
+}
+
